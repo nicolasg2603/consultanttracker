@@ -1,0 +1,49 @@
+<head>
+    <title>Login Page</title>
+    <style>
+        body {
+            background-color: #e0e0e0; /* Light Gray Background */
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background-color: #87CEFA; /* Light Blue Color */
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 10px;
+            
+        }
+        h1 {
+            color: #333; 
+        }
+        .login-input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc; 
+            border-radius: 5px;
+        }
+        .login-button {
+            background-color: #0099cc; 
+            color: #fff; 
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login-button:hover {
+            background-color: #0077aa; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form>
+            <input class="login-input" type="text" name="username" placeholder="Username" required>
+            <input class="login-input" type="password" name="password" placeholder="Password" required>
+            <button class="login-button">Log In</button>
+        </form>
+    </div>
+</body>
